@@ -1,0 +1,26 @@
+# Mass LinkedIn Profile Scraper
+
+> Upload a large file of LinkedIn profile URLs. The run is concurrent and resumable, up to 1,000,000 URLs, and each row is the full profile.
+
+Mawsool publishes this as an Apify Actor. Starting from $0.80 per 1,000 profiles.
+
+## Run
+
+- Apify Actor: https://apify.com/oday/mawsool-mass-linkedin-profile-scraper
+- Call: `oday/mawsool-mass-linkedin-profile-scraper`
+- API key: https://mawsool.tech/ and https://docs.mawsool.tech/
+- Contact: osama@mawsool.tech, info@mawsool.tech
+
+## Use it when
+
+The file is too large for a one-by-one scrape, and you want the full profile on every row.
+
+## Use something else when
+
+Most of the file only needs a company and headline check. Use Profile Freshness Check first and scrape the rows that changed. Dead URLs belong in Fix Broken LinkedIn URLs.
+
+## Page
+
+- Scrape LinkedIn profiles in bulk from a URL file: docs/bulk-linkedin-profile-scraper.md
+
+Mawsool is not affiliated with LinkedIn.

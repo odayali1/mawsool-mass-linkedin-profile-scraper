@@ -2,6 +2,8 @@
 
 **Process large LinkedIn URL files with concurrent, resumable runs and every source field preserved.**
 
+If the file is full of old or broken LinkedIn URLs, run [Fix Broken LinkedIn URLs](https://apify.com/oday/mawsool-fix-broken-linkedin-urls) first. That lookup is live. A miss is free, and a hit returns the current URL plus the fresh headline, company, title, and experience. Send the recovered URLs here when you want the full scrape.
+
 Designed for bulk profile lists. Paste URLs, upload CSV, set concurrency, and optionally provide a `resumeId`. Re-running with the same ID skips URLs already completed. Starting from $0.80 per 1,000
 ## Check the company and headline before you pay for the full profile
 
@@ -14,6 +16,7 @@ At these prices, 10,000 full profiles cost $8. Checking all 10,000 first costs $
 
 | If this is what you need | Open |
 | --- | --- |
+| Your LinkedIn URLs are old, stale, or no longer open. | [Fix Broken LinkedIn URLs](https://apify.com/oday/mawsool-fix-broken-linkedin-urls) |
 | You have an email and want the LinkedIn profile. | [Reverse Email Lookup](https://apify.com/oday/mawsool-email-linkedin-lookup) |
 | You have a name and company and want the profile URL. | [LinkedIn Profile Finder](https://apify.com/oday/mawsool-linkedin-profile-finder) |
 | You have a profile URL and want the personal email. | [LinkedIn Email Finder](https://apify.com/oday/mawsool-linkedin-personal-email-finder) |
